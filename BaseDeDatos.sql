@@ -1,3 +1,7 @@
+--Base de datos: microservice_db
+
+CREATE DATABASE microservice_db 
+    
 -- Eliminar tablas existentes para evitar problemas de insercion
 DROP TABLE IF EXISTS movimiento CASCADE;
 DROP TABLE IF EXISTS cuenta CASCADE;
